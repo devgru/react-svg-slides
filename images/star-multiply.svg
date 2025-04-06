@@ -1,0 +1,28 @@
+<svg         xmlns="http://www.w3.org/2000/svg" viewBox="50 50" width="50" height="50">
+    <defs>
+        <g id="star" transform="scale(.4)">
+            <path
+                    d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z"
+                    fill="inherit"
+                    style="fill: inherit; mix-blend-mode: multiply;"
+            ></path>
+        </g>
+    </defs>
+    <g transform="translate(1,1) scale(2.1)">
+        <g transform="translate(0,-1)">
+            <use href="#star" fill="#ff9"></use>
+        </g>
+        <g transform="translate(0.95,-.31)">
+            <use href="#star" fill="#5ff"></use>
+        </g>
+        <g transform="translate(-.95,-.31)">
+            <use href="#star" fill="#f55"></use>
+        </g>
+        <g transform="translate(.59,.81)">
+            <use href="#star" fill="#95f"></use>
+        </g>
+        <g transform="translate(-.59,.81)">
+            <use href="#star" fill="#595"></use>
+        </g>
+    </g>
+</svg>
